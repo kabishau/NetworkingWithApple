@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		22DC3B0C203E0DBD00ACFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B0B203E0DBD00ACFD8C /* AppDelegate.swift */; };
-		22DC3B0E203E0DBD00ACFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B0D203E0DBD00ACFD8C /* ViewController.swift */; };
+		22DC3B0E203E0DBD00ACFD8C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B0D203E0DBD00ACFD8C /* PhotoViewController.swift */; };
 		22DC3B11203E0DBD00ACFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC3B0F203E0DBD00ACFD8C /* Main.storyboard */; };
 		22DC3B13203E0DBD00ACFD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC3B12203E0DBD00ACFD8C /* Assets.xcassets */; };
 		22DC3B16203E0DBD00ACFD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC3B14203E0DBD00ACFD8C /* LaunchScreen.storyboard */; };
+		22DC3B1E203E0EB600ACFD8C /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B1D203E0EB600ACFD8C /* PhotoInfoController.swift */; };
+		22DC3B20203E0FE000ACFD8C /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC3B1F203E0FE000ACFD8C /* PhotoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22DC3B08203E0DBD00ACFD8C /* NetworkingWithApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingWithApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DC3B0B203E0DBD00ACFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22DC3B0D203E0DBD00ACFD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22DC3B0D203E0DBD00ACFD8C /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		22DC3B10203E0DBD00ACFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22DC3B12203E0DBD00ACFD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DC3B15203E0DBD00ACFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DC3B17203E0DBD00ACFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DC3B1D203E0EB600ACFD8C /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
+		22DC3B1F203E0FE000ACFD8C /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				22DC3B0B203E0DBD00ACFD8C /* AppDelegate.swift */,
-				22DC3B0D203E0DBD00ACFD8C /* ViewController.swift */,
 				22DC3B0F203E0DBD00ACFD8C /* Main.storyboard */,
 				22DC3B12203E0DBD00ACFD8C /* Assets.xcassets */,
 				22DC3B14203E0DBD00ACFD8C /* LaunchScreen.storyboard */,
 				22DC3B17203E0DBD00ACFD8C /* Info.plist */,
+				22DC3B0D203E0DBD00ACFD8C /* PhotoViewController.swift */,
+				22DC3B1D203E0EB600ACFD8C /* PhotoInfoController.swift */,
+				22DC3B1F203E0FE000ACFD8C /* PhotoInfo.swift */,
 			);
 			path = NetworkingWithApple;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DC3B0E203E0DBD00ACFD8C /* ViewController.swift in Sources */,
+				22DC3B20203E0FE000ACFD8C /* PhotoInfo.swift in Sources */,
+				22DC3B0E203E0DBD00ACFD8C /* PhotoViewController.swift in Sources */,
 				22DC3B0C203E0DBD00ACFD8C /* AppDelegate.swift in Sources */,
+				22DC3B1E203E0EB600ACFD8C /* PhotoInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
